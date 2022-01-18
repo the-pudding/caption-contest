@@ -10,6 +10,7 @@
 {#if data.length}
   <section id="archive">
     <div class="col">
+      <h2>The Experiments</h2>
       <ul>
         {#each data as { slug, title, attempt, date }}
           <li style="--theme: var(--theme-{attempt % themeCount});">

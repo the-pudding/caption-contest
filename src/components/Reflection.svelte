@@ -74,7 +74,8 @@
       >Captions, ranked by votes from the New Yorker’s Cartoon Caption Contest Survey</span
     >
   </p>
-  <div class="wide-mode">
+  <p class="chart-hed">OUR RANKING IN 10 ATTEMPTS</p>
+  <div class="wide-mode" style="margin-top: 0; padding-top: 0;">
     <LineChart />
   </div>
   <p>
@@ -807,6 +808,9 @@
     border: none;
     box-shadow: none;
   }
+
+  
+
   details span {
     border-left: 1px solid #000;
   }
@@ -922,6 +926,11 @@
     background: rgba(0, 0, 0, 0.4);
     align-self: center;
     margin-top: 2rem;
+  }
+
+  .chart-hed {
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .date-header .line {

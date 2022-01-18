@@ -38,6 +38,11 @@
     border-top: 1px solid var(--base-black-transparent);
   }
 
+  summary {
+    box-shadow: none;
+    border: none;
+  }
+
   h3 {
     margin-bottom: 1.5rem;
   }

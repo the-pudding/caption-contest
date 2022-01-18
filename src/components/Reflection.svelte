@@ -32,7 +32,7 @@
     <video
       muted
       alt="Video of GPT-3 generating a caption for the cartoon of a 'A couple are sitting on a couch and surrounded by five guys who have metal detectors who are sweeping the floor around the couch, looking for metal. What is the woman saying to the man?'"
-      src="/assets/videos/playground.mp4"
+      src="assets/videos/playground.mp4"
       controls
       autoplay
       loop
@@ -809,7 +809,7 @@
     box-shadow: none;
   }
 
-  
+
 
   details span {
     border-left: 1px solid #000;

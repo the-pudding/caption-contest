@@ -33,7 +33,8 @@
 </script>
 
 <p class="date">{data.date}</p>
-<div class="line" style="width:{lineScale(data.entries)}%;">
+<!-- <div class="line" style="width:{lineScale(data.entries)}%;"> -->
+<div class="line" style="width:100%;">
     <div class="line-container">
     </div>
     <div class="dot-container" style="left:{JSON.stringify(dotScale(data.rank)).concat('%')};">

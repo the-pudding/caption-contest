@@ -894,9 +894,18 @@
 
   p,
   ul,
-  li,
-  details {
+  li {
     width: calc(100% - 2rem);
+    margin: 0 auto;
+    max-width: 560px;
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+    color: #000;
+    line-height: 1.3;
+  }
+
+  details {
+    width: 100%;
     margin: 0 auto;
     max-width: 560px;
     margin-bottom: 1.5rem;

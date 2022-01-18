@@ -1,32 +1,27 @@
 /**
  * Do not edit directly
- * Generated on Thu, 13 Jan 2022 17:26:20 GMT
+ * Generated on Tue, 18 Jan 2022 14:40:56 GMT
  */
 
 :root {
-  --category-blue: #4477AA;
-  --category-red: #EE6677;
-  --category-green: #228833;
-  --category-yellow: #CCBB44;
-  --category-cyan: #66CCEE;
-  --category-purple: #AA3377;
-  --category-gray: #BBBBBB;
-  --color-black: #000000;
-  --color-white: #ffffff;
-  --color-gray-50: #f7f7f7;
-  --color-gray-100: #efefef;
-  --color-gray-200: #dfdfdf;
-  --color-gray-300: #cacaca;
-  --color-gray-400: #a8a8a8;
-  --color-gray-500: #878787;
-  --color-gray-600: #6d6d6d;
-  --color-gray-700: #4e4e4e;
-  --color-gray-800: #373737;
-  --color-gray-900: #262626;
-  --color-gray-1000: #191919;
-  --color-purple: #a239ca;
-  --color-blue: #4717f6;
-  --color-green: #34a29e;
-  --color-red: #ff533d;
-  --color-yellow: #e5e338;
+  --base-black: #000000;
+  --base-black-transparent: rgba(0,0,0,0.3);
+  --base-off-black: #282828;
+  --base-gray-dark: #5b5b5b;
+  --base-gray-medium: #949494;
+  --base-gray-light: #c9c9c9;
+  --base-off-white: #f0f0f0;
+  --base-white: #fff;
+  --base-white-transparent: rgba(255,255,255,0.7);
+  --base-blue: #4DB5CA;
+  --base-red: #FFA2A1;
+  --base-yellow: #EFC66A;
+  --base-green: #5BBD68;
+  --categorical-blue: #4477AA;
+  --categorical-red: #EE6677;
+  --categorical-green: #228833;
+  --categorical-yellow: #CCBB44;
+  --categorical-cyan: #66CCEE;
+  --categorical-purple: #AA3377;
+  --categorical-gray: #BBBBBB;
 }

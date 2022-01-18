@@ -11,7 +11,7 @@
   {#if label}
     <label for={id}>{label}</label>
   {/if}
-  <select {id} bind:value {disabled}>
+  <select {id} bind:value>
     {#each options as option}
       <option>{option.label || option.value}</option>
     {/each}
@@ -37,9 +37,9 @@
     font-family: inherit;
     font-size: 1em;
     cursor: pointer;
-    background: var(--color-white);
-    color: var(--color-gray-900);
-    border: 2px solid var(--color-gray-900);
+    background: var(--base-white);
+    color: var(--base-off-black);
+    border: 2px solid var(--base-off-black);
     border-radius: 4px;
     padding: 0.5em;
     appearance: none;
@@ -59,7 +59,7 @@
     width: 1em;
     height: 1em;
     z-index: 1;
-    background: var(--color-gray-900);
+    background: var(--base-off-black);
     clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
     border-radius: 4px;
     transform-origin: center center;
@@ -68,15 +68,15 @@
   }
 
   select:hover {
-    background: var(--color-gray-100);
+    background: var(--base-off-white);
   }
 
   select:focus {
     box-shadow: 0 0 4px 0 var(--color-focus);
   }
 
-  .select:disabled {
+  .select--disabled {
     cursor: not-allowed;
-    background-color: var(--color-gray-300);
+    background-color: var(--base-gray-light);
   }
 </style>

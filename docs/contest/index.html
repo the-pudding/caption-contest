@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/__layout.svelte-40040900.css">
+	<link rel="modulepreload" href="/caption-contest/_app/start-2bab4ca6.js">
+	<link rel="modulepreload" href="/caption-contest/_app/chunks/vendor-a5585d45.js">
+	<link rel="modulepreload" href="/caption-contest/_app/chunks/paths-28a87002.js">
+	<link rel="modulepreload" href="/caption-contest/_app/pages/__layout.svelte-40d22e60.js">
+	<link rel="modulepreload" href="/caption-contest/_app/pages/contest/index.svelte-5548e2b3.js">
+			<script type="module">
+				import { start } from "/caption-contest/_app/start-2bab4ca6.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"/caption-contest","assets":"/caption-contest"},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/caption-contest/_app/pages/__layout.svelte-40d22e60.js"),
+						import("/caption-contest/_app/pages/contest/index.svelte-5548e2b3.js")
+						],
+						url: new URL("http://prerender/contest"),
+						params: {}
+					}
+				});
+			</script>
+</head>
+
+<body>
+	<a href="#content" class="skip-to-main">Skip to main content</a>
+	<div id="svelte">
+
+
+<main id="content"></main>
+
+</div>
+</body>
+
+</html>

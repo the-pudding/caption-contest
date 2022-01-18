@@ -7,7 +7,7 @@
 :root {
 	/* font */
 	--sans: "National 2 Web", Helvetica, Arial, sans-serif;
-	--serif: "Tiempos Text Web", Georgia, Times, serif;
+	--serif: "Recoleta Regular", Georgia, Times, serif;
 	--mono: Menlo, Consolas, Monaco, "Courier New", monospace;
 	
 	/* z-index */
@@ -17,18 +17,133 @@
 	--z-overlay: 1000;
 
 	/* presets */
-	--border-radius: 4px;
 	--font-body: var(--sans);
 	--font-form: var(--sans);
-	--color-bg: var(--color-white);
-	--color-fg: var(--color-gray-900);
-	--color-placeholder: var(--color-700);
-  --color-link: var(--color-purple);
-  --color-focus: var(--color-red);
-  --color-form-bg: var(--color-gray-700);
-	--color-form-fg: var(--color-gray-900);
-	--color-border: var(--color-gray-300);
-	--color-selection: var(--color-gray-300);
-  --color-highlight: var(--color-yellow);
+	--background-body: var(--base-white);
+  --background-form: var(--base-off-white);
+	--color-body: var(--base-off-black);
+	--color-placeholder: var(--base-gray-dark);
+  --color-link: var(--base-off-black);
+  --color-focus: var(--base-white);
+	--color-border: var(--base-gray-light);
+	--color-selection: var(--base-gray-light);
+  --color-highlight: var(--base-gray-light);
+	--size-sm: 16px;
+	--size-md: 21px;
+
+	--max-width: 540px;
+	--radius: 6px;
+	--theme-0: var(--base-green);
+	--theme-1: var(--base-red);
+	--theme-2: var(--base-blue);
+	--theme-3: var(--base-yellow);
+
+	--base-color: #F5F6F0;
+	--backgroundGradient: linear-gradient(var(--base-color),#e7d4e5,#cad9e5,#eeebcc,#e9d8e3,#dbd4ed,var(--base-color));
+    --backgroundColor: var(--base-color);
+
+}
+
+body {
+	font-size: var(--size-md);
+}
+
+h1, h2, h3 {
+	font-family: var(--serif);
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+blockquote {
+	font-weight: bold;
+}
+
+details span {
+	display: block;
+	padding: 0 1em;
+	margin-top: 1em;
+	margin-left: 0;
+	border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+details summary > * {
+	display: inline;
+}
+
+summary, input {
+	cursor: pointer;
+	margin: 0 auto;
+	background: var(--base-white-transparent);
+	border: 1px solid var(--base-black-transparent);
+	box-shadow: 3px 3px 5px rgba(0,0,0,.2);
+	padding: 0.5em;
+	border-radius: var(--radius);
+}
+
+summary span {
+	background: none;
+	padding: 0;
+	border: none;
+}
+
+img {
+	border-radius: var(--radius);
+}
+
+.sm {
+	font-size: var(--size-sm);
+}
+
+.md {
+	font-size: var(--size-md);
+}
+
+.btn {
+	text-decoration: none;
+  background-color: var(--background-form);
+  border: none;
+  border-radius: 4px;
+  color: var(--color-form);
+  font-family: var(--font-form);
+  font-size: 0.75em;
+	font-weight: bold;
+  outline: none;
+  padding: 0.5em;
+	text-transform: uppercase;
+}
+
+.col {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.info a, .info a:visited {
+	color: var(--base-white);
+}
+
+#contest a, #contest a:visited {
+	color: var(--base-black);
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+		--size-sm: 16px;
+		--size-md: 21px;
+	}
 	
+	h1 {
+		font-size: 46px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
 }

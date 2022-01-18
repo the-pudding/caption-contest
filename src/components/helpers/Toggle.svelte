@@ -4,7 +4,7 @@
   export let options = ["on", "off"];
   export let value = options[0];
 
-  let checked = value === options[0];
+  let checked = true;
 
   const id = `toggle-${Math.floor(Math.random() * 1000000)}`;
 
@@ -37,14 +37,14 @@
   [role="switch"][aria-checked="false"] :last-child {
     display: inline-block;
     border-radius: 4px;
-    background: var(--color-gray-900);
-    color: var(--color-gray-100);
+    background: var(--base-off-black);
+    color: var(--base-off-white);
   }
 
   .toggle--inner button {
     padding: 0.5em;
-    background-color: var(--color-white);
-    border: 2px solid var(--color-gray-900);
+    background-color: var(--base-white);
+    border: 2px solid var(--base-off-black);
   }
 
   .toggle--inner button span {
@@ -69,7 +69,7 @@
     height: 2em;
     position: relative;
     margin-left: 0.5em;
-    background: var(--color-gray-300);
+    background: var(--base-gray-light);
   }
 
   .toggle--slider button:focus {
@@ -81,14 +81,14 @@
     position: absolute;
     width: 1.5em;
     height: 1.5em;
-    background: var(--color-white);
+    background: var(--base-white);
     border-radius: 4px;
     top: 0.25em;
     right: 1.75em;
   }
 
   .toggle--slider button[aria-checked="true"] {
-    background-color: var(--color-gray-900);
+    background-color: var(--base-off-black);
   }
 
   .toggle--slider button[aria-checked="true"]::before {

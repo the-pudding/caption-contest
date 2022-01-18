@@ -1,7 +1,7 @@
 
 body {
-	background-color: var(--color-bg);
-  color: var(--color-fg);
+	background-color: var(--background-body);
+  color: var(--color-body);
 	line-height: 1.4;
 	font-family: var(--font-body);
 	font-feature-settings: 'kern' 1, 'onum' 0, 'liga' 0, 'tnum' 1;
@@ -15,8 +15,18 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+li {
 	margin: 1rem 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+span, summary, details, figcaption, label {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
 }
 
 mark {
@@ -41,10 +51,10 @@ textarea,
 input[type="submit"],
 input[type="button"] {
 	appearance: none;
-  background-color: var(--color-form-bg);
+  background-color: var(--background-form);
   border: none;
-  border-radius: var(--border-radius);
-  color: var(--color-form-fg);
+  border-radius: 4px;
+  color: var(--color-form);
   font-family: var(--font-form);
   font-size: inherit;
   outline: none;
@@ -71,7 +81,7 @@ select {
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-  background: var(--color-form-bg);
+  background: var(--background-form);
 }
 
 button:focus,
@@ -149,8 +159,8 @@ tfoot {
 }
 
 .skip-to-main:focus {
-	background-color: var(--color-gray-900);
-	color: var(--color-white);
+	background-color: var(--base-off-white);
+	color: var(--base-off-black);
 	width: auto;
 	height: auto;
 	padding: 0.5em;

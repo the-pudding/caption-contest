@@ -26,7 +26,7 @@
     localURL = window.location.href;
     const response = await fetch(url);
     const data = await response.json();
-    stories = data.filter((d) => !localURL.includes(d.url)).slice(0, 4);
+    stories = data.filter((d) => d.url !== localURL).slice(0, 4);
   });
 </script>
 
@@ -34,7 +34,7 @@
   <section class="stories">
     {#each stories as { hed, url, image }}
       <div class="story">
-        <a href="https://pudding.cool/{url}">
+        <a rel="external" href="https://pudding.cool/{url}">
           <img
             src="https://pudding.cool/common/assets/thumbnails/640/{image}.jpg"
             alt="thumbnail"
@@ -59,7 +59,7 @@
     <ul>
       {#each links as link}
         <li>
-          <a href={link.url}>
+          <a rel="external" href={link.url}>
             <span>{link.name.toUpperCase()}</span>
           </a>
         </li>
@@ -70,8 +70,8 @@
 
 <style>
   footer {
-    background-color: var(--color-fg);
-    color: var(--color-bg);
+    background-color: var(--base-off-black);
+    color: var(--base-off-white);
     font-family: var(--sans);
     padding: 3em 1em;
     margin-top: 3em;
@@ -80,7 +80,7 @@
   a,
   a:visited,
   a:hover {
-    color: var(--color-bg);
+    color: var(--base-off-white);
   }
 
   .stories {

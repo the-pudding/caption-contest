@@ -6,15 +6,13 @@
 <section>
   <p class="date">January 11, 2022</p>
   <p>
-    We were hopeful that we could get GPT-3—an AI program that can shockingly produce writing that’s
-    indistinguishable from humans—to produce a winning caption for the venerated New Yorker Cartoon
-    Caption Contest.
+    We were hopeful that we could get GPT-3—an AI program that is capable of producing writing that’s  indistinguishable from humans—to create a winning caption for the venerated <a href="https://www.newyorker.com/cartoons/contest?id=230&source=search_google_dsa_paid&gclid=Cj0KCQiAoNWOBhCwARIsAAiHnEjEgezPeBVMmDNNlfUfJA8WW1s2GhbyJFoQ9TthDbRUum3sO2M4oGMaAsVKEALw_wcB t" target="_blank">New Yorker Cartoon
+    Caption Contest</a>.
   </p>
 </section>
 <section>
   <p>
-    <span class="bolded">We were impressed by what an AI could generate. </span>Here’s one of our
-    favorite captions authored by GPT-3.
+    <span class="bolded">We were impressed by what an AI could generate. </span>Here’s one of our favorite captions authored by AI program GPT-3.
   </p>
 
   <div class="wide-mode white">
@@ -26,7 +24,7 @@
   </div>
   <p>
     What a masterpiece! Even I would be skeptical that a computer could pull off a double entendre,
-    and we didn’t even need any special skills to generate it. Here’s the process:
+    and we didn’t even need any special skills to generate it. Here was the process:
   </p>
   <div class="wide-mode white">
     <video
@@ -39,11 +37,7 @@
     />
   </div>
   <p>
-    GPT-3 is an open-to-the-public tool (just create an account <a
-      href="https://beta.openai.com/playground"
-      target="_blank">here</a
-    > ). The “playground” mode is just a text box. Enter some text and GPT-3 generates a response, wielding
-    a model that’s trained on THE ENTIRE INTERNET. In this case we entered,
+    GPT-3 is an open-to-the-public tool (just create an account <a href="https://beta.openai.com/playground" target="_blank">here</a>). The “playground” mode is just a text box. Enter some text and GPT-3 generates a response, wielding a language model that’s trained on THE ENTIRE INTERNET (if you’re curious about how predictive language models work, check out our interactive explanation <a href="https://pudding.cool/2019/04/text-prediction" target="_blank">here</a>). In this case we entered,
   </p>
   <p>
     <i
@@ -51,7 +45,7 @@
       sweeping the floor around the couch, looking for metal. What is the woman saying to the man?”</i
     >
   </p>
-  <p>And it responds with the caption,</p>
+  <p>GPT-3 then generates the following caption:</p>
   <p><i>“Don't worry, dear. It's just the magnetism of my personality.”</i></p>
   <p>
     We could also track how our captions ranked among the New Yorker’s thousands of entries for each
@@ -68,13 +62,12 @@
   <p>
     <span class="bolded"
       >We submitted computer-generated captions for 10 different contests. One caption ranked in the
-      top 100.</span
+      top 200.</span
     >
     <span class="smaller"
-      >Captions, ranked by votes from the New Yorker’s Cartoon Caption Contest Survey</span
+      >Our captions, ranked by votes from the New Yorker’s Cartoon Caption Contest Survey</span
     >
   </p>
-  <p class="chart-hed">OUR RANKING IN 10 ATTEMPTS</p>
   <div class="wide-mode" style="margin-top: 0; padding-top: 0;">
     <LineChart />
   </div>
@@ -98,7 +91,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 9% (2,064th)</p>
+        <p class="greyed">Submission: ranked top 9% (2,064th)</p>
         <p>“I’m sorry about this whole climate change thing.”</p>
       </div>
       <div class="others">
@@ -146,7 +139,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 21% (957th)</p>
+        <p class="greyed">Submission: ranked top 21% (957th)</p>
         <p>“I want to try living outside of my comfort zone.”</p>
       </div>
       <div class="others">
@@ -194,7 +187,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 16% (1,740th)</p>
+        <p class="greyed">Submission: ranked top 16% (1,740th)</p>
         <p>“In the grand scheme of things, lemons are a small price to pay.”</p>
       </div>
     </div>
@@ -229,7 +222,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 2% (184th)</p>
+        <p class="greyed">Submission: ranked top 2% (184th)</p>
         <p>“No, this is the line for the rat race.”</p>
       </div>
       <div class="others">
@@ -307,7 +300,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 50% (4,545th)</p>
+        <p class="greyed">Submission: ranked top 50% (4,545th)</p>
         <p>“I’ve never seen a car this hot before”</p>
       </div>
       <div class="others">
@@ -373,7 +366,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 62% (3,932nd)</p>
+        <p class="greyed">Submission: ranked top 62% (3,932nd)</p>
         <p>“I’m not *that* kind of a fish”</p>
       </div>
       <div class="others">
@@ -433,7 +426,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked top 26% (1,829th)</p>
+        <p class="greyed">Submission: ranked top 26% (1,829th)</p>
         <p>“Refugees welcome!”</p>
       </div>
       <div class="others">
@@ -504,7 +497,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked in bottom 5% (6,213th)</p>
+        <p class="greyed">Submission: ranked in bottom 5% (6,213th)</p>
         <p>“I can’t play when he gets close.”</p>
       </div>
       <div class="others">
@@ -568,7 +561,7 @@
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked in top 37% (2,985th)</p>
+        <p class="greyed">Submission: ranked in top 37% (2,985th)</p>
         <p>“He eats this stuff up.”</p>
       </div>
       <div class="others">
@@ -617,13 +610,13 @@
     </div>
     <div class="contest-left">
       <img
-        src="https://media.newyorker.com/cartoons/612042cfae85db0a03039b7d/master/w_580.jpg"
+        src="https://media.newyorker.com/cartoons/61327f4b4bc5f041092d873b/master/w_580,c_limit/210913_a25275_771.jpg"
         alt=""
       />
     </div>
     <div class="contest-right">
       <div class="submitted">
-        <p class="greyed">Submitted: ranked in top 28% (1,934th)</p>
+        <p class="greyed">Submission: ranked in top 28% (1,934th)</p>
         <p>“If I didn’t know better, I’d think you were hiding something.”</p>
       </div>
       <div class="others">
@@ -720,7 +713,7 @@
     was the project’s computational humor expert, aptly questioned this premise.
   </p>
   <p>
-    She pointed out that New Yorker cartoon captions aren’t actually funny, a sentiment echoed by
+    She pointed out that, in her opinion, New Yorker cartoon captions aren’t actually funny, a sentiment echoed by
     many people, and based on the way readers ranked captions, it increasingly became clear that
     this contest was actually a competition in cleverness instead of laugh-out-loud humor. Indeed,
     very rarely would a caption finalist make us laugh. The barometer for a good caption was <i
@@ -739,13 +732,15 @@
   <ul>
     <li>
       <a href="https://pudding.cool/2018/05/cookies/" target="_blank"
-        >Baking the Most Average Chocolate Chip Cookie</a
-      >
+        >Baking the Most Average Chocolate Chip Cookie</a>
     </li>
     <li>
       <a href="https://pudding.cool/2021/03/love-and-ai/" target="_blank"
-        >Nothing Breaks Like A.I. Heart</a
-      >
+        >Nothing Breaks Like A.I. Heart</a>
+    </li>
+    <li>
+      <a href="https://pudding.cool/2019/04/text-prediction/" target="_blank"
+        >How Algorithms Know What You’ll Type Next</a>
     </li>
   </ul>
   <p class="spacing">

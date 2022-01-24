@@ -234,7 +234,7 @@
     <div class="line" />
   </div>
   <p>
-    Contributor and AI-tinkerer <a href="https://twitter.com/jamesjyu">James Wu</a> helped out on
+    Contributor and AI-tinkerer <a href="https://twitter.com/jamesjyu">James Yu</a> helped out on
     this experiment, modeling a
     <a href="https://www.youtube.com/watch?v=nVM7zaqw7ZU">YouTube series</a> where comedians narrate
     their thought process while coming up with caption ideas for the New Yorker cartoon caption contest.

@@ -4,7 +4,7 @@
 </script>
 
 <section>
-  <p class="date">January 11, 2022</p>
+  <p class="date">January 24, 2022</p>
   <p>
     We were hopeful that we could get GPT-3—an AI program that is capable of producing writing that’s  indistinguishable from humans—to create a winning caption for the venerated <a href="https://www.newyorker.com/cartoons/contest?id=230&source=search_google_dsa_paid&gclid=Cj0KCQiAoNWOBhCwARIsAAiHnEjEgezPeBVMmDNNlfUfJA8WW1s2GhbyJFoQ9TthDbRUum3sO2M4oGMaAsVKEALw_wcB t" target="_blank">New Yorker Cartoon
     Caption Contest</a>.

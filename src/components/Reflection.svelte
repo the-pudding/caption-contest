@@ -502,7 +502,6 @@
       </div>
       <div class="others">
         <p class="greyed">Also generated:</p>
-        <p>“I can’t play when he gets close.”</p>
         <p>“I should have brought ice cream. By the way, is the knight bringing ice cream?”</p>
         <p>I can't end it like this!</p>
         <p>The dragon has a better chance of winning but the knight wants to save the day.</p>

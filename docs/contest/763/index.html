@@ -3,19 +3,19 @@
 
 <head>
 	<title>Attempt #5: The Funniest</title><meta charset="utf-8" data-svelte="svelte-t170d2"><meta name="viewport" content="width=device-width, initial-scale=1.0" data-svelte="svelte-t170d2"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" data-svelte="svelte-t170d2"><meta name="description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="author" content="The Pudding" data-svelte="svelte-t170d2"><meta name="news_keywords" content="" data-svelte="svelte-t170d2"><meta property="og:title" content="Attempt #5: The Funniest" data-svelte="svelte-t170d2"><meta property="og:site_name" content="The Pudding" data-svelte="svelte-t170d2"><meta property="og:url" content="https://pudding.cool/projects/caption-contest" data-svelte="svelte-t170d2"><meta property="og:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta property="og:type" content="article" data-svelte="svelte-t170d2"><meta property="og:locale" content="en_US" data-svelte="svelte-t170d2"><meta property="og:image" content="https://pudding.cool/projects/caption-contest/assets/social/facebook.png" data-svelte="svelte-t170d2"><meta property="og:image:type" content="image/jpeg" data-svelte="svelte-t170d2"><meta property="og:image:width" content="1200" data-svelte="svelte-t170d2"><meta property="og:image:height" content="600" data-svelte="svelte-t170d2"><meta name="twitter:card" content="summary_large_image" data-svelte="svelte-t170d2"><meta name="twitter:site" content="https://pudding.cool" data-svelte="svelte-t170d2"><meta name="twitter:creator" content="@puddingviz" data-svelte="svelte-t170d2"><meta name="twitter:title" content="Attempt #5: The Funniest" data-svelte="svelte-t170d2"><meta name="twitter:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="twitter:image:src" content="https://pudding.cool/projects/caption-contest/assets/social/twitter.png" data-svelte="svelte-t170d2"><meta name="robots" content="max-image-preview:large" data-svelte="svelte-t170d2"><link rel="canonical" href="https://pudding.cool/projects/caption-contest/" data-svelte="svelte-t170d2">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/__layout.svelte-a7ee7e8a.css">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
-	<link rel="modulepreload" href="/caption-contest/_app/start-f01fd740.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/vendor-b629eb54.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/paths-4b3c6e7e.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/__layout.svelte-b50057e1.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/contest/_slug_.svelte-6dfbc22d.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/wordmark-5d3d23fb.js">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/__layout.svelte-1a661e40.css">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/start-bb0e531d.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/vendor-8e4befe9.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/paths-4b3c6e7e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/__layout.svelte-c485e64e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/contest/_slug_.svelte-0b21efdb.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/wordmark-df013d68.js">
 			<script type="module">
-				import { start } from "/caption-contest/_app/start-f01fd740.js";
+				import { start } from "/projects/caption-contest/_app/start-bb0e531d.js";
 				start({
 					target: document.querySelector("#svelte"),
-					paths: {"base":"/caption-contest","assets":"/caption-contest"},
+					paths: {"base":"/projects/caption-contest","assets":"/projects/caption-contest"},
 					session: {},
 					route: true,
 					spa: false,
@@ -37,7 +37,7 @@
 <section style="--theme: var(--theme-1);" class="svelte-bxxmu9"><div class="info svelte-bxxmu9"><div class="col"><h1 class="svelte-bxxmu9">Attempt #5: The Funniest</h1>
       <time>July 5, 2021</time>
       <p><!-- HTML_TAG_START -->Instead of merely generating a funny caption, we attempted to nudge the model towards captions that are funny enough to win the contest. The process used six historic cartoon caption contests and prompted GPT-3 with each contest’s three most-funny captions.<!-- HTML_TAG_END --></p>
-      <a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
+      <a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
 
   <div class="col"><figure class="svelte-bxxmu9"><figcaption class="sm svelte-bxxmu9"><a href="https://www.newyorker.com/cartoons/contest" class="svelte-bxxmu9">#763</a>: Here is the cartoon for
         July 5, 2021 by Michael Maslin</figcaption>
@@ -55,7 +55,7 @@
 
     <div class="explanation sm"><h2 class="svelte-bxxmu9">About this approach</h2>
       <p><!-- HTML_TAG_START -->The process uses a <a href=https://github.com/nextml/caption-contest-data>database</a> of captions and cartoon descriptions created by NextML. It includes <a href=https://github.com/nextml/caption-contest-data/blob/master/contests/metadata/descriptions.txt>this list</a> of historic cartoon descriptions and a <a href=https://github.com/nextml/caption-contest-data/tree/master/contests/summaries>ranked list</a> of every reader-submitted caption, based on reader-voted funniness (NextML runs a survey that crowdsources a caption’s funniness). The ranking is submitted to New Yorker editors, which, to our knowledge, is used to select the contest’s finalists.<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START -->We grabbed the descriptions and top-ranking captions for six contests. Here’s the prompt to GPT-3:<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START --><blockquote>Write a funny caption for a cartoon.<br>"""<br>Cartoon Description: A well-dressed man complaining about his fuming soup to a server.<br>Cartoon Caption One: Cancel the molten lava cake.<br>Cartoon Caption Two: You know what? Just bring me back the one with the fly in it.<br>Cartoon Caption Three: On second thought, let's skip the chocolate lava cake for dessert.<br><br>Cartoon Description: A magician shredding a document that a woman is holding.<br>Cartoon Caption One: This is the exact moment Susan realized she may be an accomplice and not a magician's assistant.<br>Cartoon Caption Two: When I did this trick at my old accounting firm, they called it a felony.<br>Cartoon Caption Three: It's not magic. It's a Georgia ballot box.<br><br>Cartoon Description: A man and a woman talking on a mountainside as a yeti walks by.<br>Cartoon Caption One: Like it would have killed you to ask him for directions.<br>Cartoon Caption Two: Oh, shit! What if your sister-in-law is also right about God<br>Cartoon Caption Three: Don’t bring a camera, you said. Just enjoy the experience, you said.<br><br>Cartoon Description: A man is offering a woman a hot dog next to a food cart on a giant pyramid<br>Cartoon Caption One: He offered us a franchise, but I think it’s a pyramid scheme.<br>Cartoon Caption Two: Finally, hotdogs are at the top of the food pyramid.<br>Cartoon Caption Three: Of course it’s kosher – who do you think built this place<br><br>Cartoon Description: Couple watching tv with a food cart in their living room<br>Cartoon Caption One: We meant get a job AND move out.<br>Cartoon Caption Two: Ask if they deliver.<br>Cartoon Caption Three: When I said I wanted some concessions, this is not what I had in mind.<br><br>Cartoon Description: an auto mechanic talks to the owner of a Wienermobile.<br>Cartoon Caption One:</blockquote><!-- HTML_TAG_END --></p>
-      <p><a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
+      <p><a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
 </section></main>
 
 </div>

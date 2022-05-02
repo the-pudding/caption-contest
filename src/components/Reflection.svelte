@@ -369,18 +369,9 @@
         <p class="greyed">Submission: ranked top 62% (3,932nd)</p>
         <p>“I’m not *that* kind of a fish”</p>
       </div>
-      <div class="others">
-        <p class="greyed">Also generated:</p>
-        <p>“The grill is shot too.”</p>
-        <p>“Check the oil”</p>
-        <p>“I told you to get a Chevy.”</p>
-        <p>“We’ve got a lot of parts in common.”</p>
-        <p>“I wouldn’t trade it for anything, but its exhaust smells like a bag of ass</p>
-      </div>
     </div>
     <div class="line" />
   </div>
-
   <p>
     One thing we were wondering was whether the default parameters for GPT-3 were the best ones to
     use. We tweaked a number of things in GPT-3’s interface: temperature, presence penalty, and

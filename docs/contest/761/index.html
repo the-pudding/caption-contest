@@ -3,19 +3,19 @@
 
 <head>
 	<title>Attempt #3: Anomaly + AI = Comedy?</title><meta charset="utf-8" data-svelte="svelte-t170d2"><meta name="viewport" content="width=device-width, initial-scale=1.0" data-svelte="svelte-t170d2"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" data-svelte="svelte-t170d2"><meta name="description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="author" content="The Pudding" data-svelte="svelte-t170d2"><meta name="news_keywords" content="" data-svelte="svelte-t170d2"><meta property="og:title" content="Attempt #3: Anomaly + AI = Comedy?" data-svelte="svelte-t170d2"><meta property="og:site_name" content="The Pudding" data-svelte="svelte-t170d2"><meta property="og:url" content="https://pudding.cool/projects/caption-contest" data-svelte="svelte-t170d2"><meta property="og:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta property="og:type" content="article" data-svelte="svelte-t170d2"><meta property="og:locale" content="en_US" data-svelte="svelte-t170d2"><meta property="og:image" content="https://pudding.cool/projects/caption-contest/assets/social/facebook.png" data-svelte="svelte-t170d2"><meta property="og:image:type" content="image/jpeg" data-svelte="svelte-t170d2"><meta property="og:image:width" content="1200" data-svelte="svelte-t170d2"><meta property="og:image:height" content="600" data-svelte="svelte-t170d2"><meta name="twitter:card" content="summary_large_image" data-svelte="svelte-t170d2"><meta name="twitter:site" content="https://pudding.cool" data-svelte="svelte-t170d2"><meta name="twitter:creator" content="@puddingviz" data-svelte="svelte-t170d2"><meta name="twitter:title" content="Attempt #3: Anomaly + AI = Comedy?" data-svelte="svelte-t170d2"><meta name="twitter:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="twitter:image:src" content="https://pudding.cool/projects/caption-contest/assets/social/twitter.png" data-svelte="svelte-t170d2"><meta name="robots" content="max-image-preview:large" data-svelte="svelte-t170d2"><link rel="canonical" href="https://pudding.cool/projects/caption-contest/" data-svelte="svelte-t170d2">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/__layout.svelte-a7ee7e8a.css">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
-	<link rel="modulepreload" href="/caption-contest/_app/start-f01fd740.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/vendor-b629eb54.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/paths-4b3c6e7e.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/__layout.svelte-b50057e1.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/contest/_slug_.svelte-6dfbc22d.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/wordmark-5d3d23fb.js">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/__layout.svelte-1a661e40.css">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/start-bb0e531d.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/vendor-8e4befe9.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/paths-4b3c6e7e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/__layout.svelte-c485e64e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/contest/_slug_.svelte-0b21efdb.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/wordmark-df013d68.js">
 			<script type="module">
-				import { start } from "/caption-contest/_app/start-f01fd740.js";
+				import { start } from "/projects/caption-contest/_app/start-bb0e531d.js";
 				start({
 					target: document.querySelector("#svelte"),
-					paths: {"base":"/caption-contest","assets":"/caption-contest"},
+					paths: {"base":"/projects/caption-contest","assets":"/projects/caption-contest"},
 					session: {},
 					route: true,
 					spa: false,
@@ -37,7 +37,7 @@
 <section style="--theme: var(--theme-3);" class="svelte-bxxmu9"><div class="info svelte-bxxmu9"><div class="col"><h1 class="svelte-bxxmu9">Attempt #3: Anomaly + AI = Comedy?</h1>
       <time>June 21, 2021</time>
       <p><!-- HTML_TAG_START -->We’re using a process that we’re calling <strong>Anomaly + AI = Comedy?</strong>. If you were describing this image to your least funny friend or uncle or grumpy professor, how would you do it? How would you explain the joke and why it is funny?<!-- HTML_TAG_END --></p>
-      <a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
+      <a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
 
   <div class="col"><figure class="svelte-bxxmu9"><figcaption class="sm svelte-bxxmu9"><a href="https://www.newyorker.com/cartoons/contest" class="svelte-bxxmu9">#761</a>: Here is the cartoon for
         June 21, 2021 by Sam Hurt</figcaption>
@@ -48,7 +48,7 @@
 
     <div class="explanation sm"><h2 class="svelte-bxxmu9">About this approach</h2>
       <p><!-- HTML_TAG_START -->GPT-3 can only take ASCII input, which, for the most part, means language (but hey, you can try to describe the images in Emoji if you want!), so we need to describe the images somehow. But while a picture may be worth 1,000 words, we’re limited in how much we can tell the model. The challenge then is how much context we can stuff into a few-sentence description.<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START -->In the case of New Yorker cartoons, it can be helpful to learn from the people who draw them. Cartoons for the caption contest are often more inherently humorous than the cartoons in the magazine, where the cartoonist can play with the interplay between caption and drawing directly. For the contest, the cartoonist needs to draw attention to the anomaly and humor more directly, giving a few focal points to riff on.<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START -->The goal, then, is to give weight to this anomaly in your description. Ask yourself what the image reminds you of? What contemporary social issues is it riffing on, to you? You can even think of a caption and try to describe the image from there. You can describe in verse, in plain language, in guitar tabs, world is your oyster (in 500 characters).<!-- HTML_TAG_END --></p>
-      <p><a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
+      <p><a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
 </section></main>
 
 </div>

@@ -3,19 +3,19 @@
 
 <head>
 	<title>Attempt #2: Few-Shot</title><meta charset="utf-8" data-svelte="svelte-t170d2"><meta name="viewport" content="width=device-width, initial-scale=1.0" data-svelte="svelte-t170d2"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" data-svelte="svelte-t170d2"><meta name="description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="author" content="The Pudding" data-svelte="svelte-t170d2"><meta name="news_keywords" content="" data-svelte="svelte-t170d2"><meta property="og:title" content="Attempt #2: Few-Shot" data-svelte="svelte-t170d2"><meta property="og:site_name" content="The Pudding" data-svelte="svelte-t170d2"><meta property="og:url" content="https://pudding.cool/projects/caption-contest" data-svelte="svelte-t170d2"><meta property="og:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta property="og:type" content="article" data-svelte="svelte-t170d2"><meta property="og:locale" content="en_US" data-svelte="svelte-t170d2"><meta property="og:image" content="https://pudding.cool/projects/caption-contest/assets/social/facebook.png" data-svelte="svelte-t170d2"><meta property="og:image:type" content="image/jpeg" data-svelte="svelte-t170d2"><meta property="og:image:width" content="1200" data-svelte="svelte-t170d2"><meta property="og:image:height" content="600" data-svelte="svelte-t170d2"><meta name="twitter:card" content="summary_large_image" data-svelte="svelte-t170d2"><meta name="twitter:site" content="https://pudding.cool" data-svelte="svelte-t170d2"><meta name="twitter:creator" content="@puddingviz" data-svelte="svelte-t170d2"><meta name="twitter:title" content="Attempt #2: Few-Shot" data-svelte="svelte-t170d2"><meta name="twitter:description" content="Help a Computer Win the New Yorker Cartoon Caption Contest" data-svelte="svelte-t170d2"><meta name="twitter:image:src" content="https://pudding.cool/projects/caption-contest/assets/social/twitter.png" data-svelte="svelte-t170d2"><meta name="robots" content="max-image-preview:large" data-svelte="svelte-t170d2"><link rel="canonical" href="https://pudding.cool/projects/caption-contest/" data-svelte="svelte-t170d2">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/__layout.svelte-a7ee7e8a.css">
-	<link rel="stylesheet" href="/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
-	<link rel="modulepreload" href="/caption-contest/_app/start-f01fd740.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/vendor-b629eb54.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/paths-4b3c6e7e.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/__layout.svelte-b50057e1.js">
-	<link rel="modulepreload" href="/caption-contest/_app/pages/contest/_slug_.svelte-6dfbc22d.js">
-	<link rel="modulepreload" href="/caption-contest/_app/chunks/wordmark-5d3d23fb.js">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/__layout.svelte-1a661e40.css">
+	<link rel="stylesheet" href="/projects/caption-contest/_app/assets/pages/contest/_slug_.svelte-49b01ee7.css">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/start-bb0e531d.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/vendor-8e4befe9.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/paths-4b3c6e7e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/__layout.svelte-c485e64e.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/pages/contest/_slug_.svelte-0b21efdb.js">
+	<link rel="modulepreload" href="/projects/caption-contest/_app/chunks/wordmark-df013d68.js">
 			<script type="module">
-				import { start } from "/caption-contest/_app/start-f01fd740.js";
+				import { start } from "/projects/caption-contest/_app/start-bb0e531d.js";
 				start({
 					target: document.querySelector("#svelte"),
-					paths: {"base":"/caption-contest","assets":"/caption-contest"},
+					paths: {"base":"/projects/caption-contest","assets":"/projects/caption-contest"},
 					session: {},
 					route: true,
 					spa: false,
@@ -37,7 +37,7 @@
 <section style="--theme: var(--theme-2);" class="svelte-bxxmu9"><div class="info svelte-bxxmu9"><div class="col"><h1 class="svelte-bxxmu9">Attempt #2: Few-Shot</h1>
       <time>May 31, 2021</time>
       <p><!-- HTML_TAG_START -->We used a process that we’re calling <strong>Few-Shot</strong>. We gave a description of the image, some context of our goal, and the three recent winning captions to a computer model to generate the results.<!-- HTML_TAG_END --></p>
-      <a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
+      <a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></div></div>
 
   <div class="col"><figure class="svelte-bxxmu9"><figcaption class="sm svelte-bxxmu9"><a href="https://www.newyorker.com/cartoons/contest" class="svelte-bxxmu9">#758</a>: Here is the cartoon for
         May 31, 2021 by Tom Toro</figcaption>
@@ -52,7 +52,7 @@
 
     <div class="explanation sm"><h2 class="svelte-bxxmu9">About this approach</h2>
       <p><!-- HTML_TAG_START -->To produce the captions this week we “prompted” the GPT-3 model, davinci-instruct-beta, through the <a href=https://openai.com/>OpenAI API Playground</a>. It took around 20 attempts to get these three results.<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START -->Whereas last week we expected the model to fully draw from its general knowledge bank to understand what we meant by “funny” and “New Yorker caption” and even how a description might relate to a caption, this week we give the model a few examples to nudge it in the right direction.<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START -->Here is the full prompt:<!-- HTML_TAG_END --></p><p><!-- HTML_TAG_START --><blockquote>Translate the given cartoon description into a funny caption for a New Yorker cartoon:<br>"""<br>Cartoon description: People are walking on the sidewalk. Everyone is inside their own bubble.<br>Cartoon caption: "I want one that snows."<br>Cartoon description: There is a magician pulling a rabbit out of a hat on his balcony. He has an audience of people watching from their apartment windows.<br>Cartoon caption: "See? And you said you couldn't work from home."<br>Cartoon description: Two firemen are deciding which pole to go down. One has a circular opening, one has a square opening.<br>Cartoon caption: "Since when did the pizza delivery guy get his own pole?"<br>Cartoon description: People are walking on a busy sidewalk in front of apartments. Everyone is wearing a mask. An unmasked person is working at their desk, in the middle of the sidewalk, which is blocking the people walking.<br>Cartoon caption:</blockquote><!-- HTML_TAG_END --></p>
-      <p><a href="/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
+      <p><a href="/projects/caption-contest/" class="svelte-bxxmu9">Back to Project</a></p></div></div>
 </section></main>
 
 </div>
